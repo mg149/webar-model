@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WebAR Model Viewer</title>
+  <script src="https://cdn.jsdelivr.net/gh/germanalvarez15/KitCoreWebAR@main/dist/kitcore.min.js"></script>
+</head>
+<body style="text-align:center; font-family:sans-serif; margin-top:50px;">
+  <h2>🔍 Tap below to view in AR</h2>
+
+  <kit-core-model 
+    usdz="https://limewire.com/d/j7tyg#M2E3Ai8XZK"
+    glb="https://limewire.com/d/Y5QC1#z9hQv4t2AU"
+    fallback="model-viewer">
+  </kit-core-model>
+
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</body>
+</html>
